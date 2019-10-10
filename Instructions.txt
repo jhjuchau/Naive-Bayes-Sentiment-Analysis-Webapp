@@ -1,0 +1,4 @@
+1. Install python
+2. In console, run 'pip install tweepy'
+3. Navigate to this folder in console
+4. Run 'python tweepy_streamer.py'
