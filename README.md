@@ -1,6 +1,6 @@
 # SeniorProject.SAE
 
-NOTE: This project was developed in PyCharm. For best results, please import these files into a PyCharm project.
+NOTE: This project was developed in PyCharm. For best results, please import these files into a PyCharm project.</br>
 </br>
 ==Code Structure==</br>
 -GetTweets.py: main code hub, launches flask app, collects tweets based on topic
