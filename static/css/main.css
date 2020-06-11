@@ -1,0 +1,28 @@
+.topic_title{
+  padding-top : 0.5rem;
+}
+
+.card {
+  width: 100%;
+}
+
+.spacing{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.showcase{
+  margin-top: 15%;
+}
+
+.center{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px) { /* Bootstrap's mobile view breakpoint */
+  .footer {
+    position: relative !important;
+  }
+}
