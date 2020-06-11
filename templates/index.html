@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script defer src="https://kit.fontawesome.com/2b395b964e.js" crossorigin="anonymous"></script>
+
+  <title>Sentiment Analysis Engine</title>
+</head>
+
+<body>
+  <div class="container-fluid bg-light">
+  <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="/">SAE <i class="fas fa-theater-masks"></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="sentimentAnalysis">What is Sentiment Analysis?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="about">About Us</a>
+              </li>
+            </ul>
+          </div>
+  </nav>
+  <hr class="my-0">
+  </div>
+
+  <div class="container padding showcase">
+    <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h4>Sentiment Analysis... Made Easy.</h4>
+    <form method="POST" class="form-inline my-4 my-lg-6">
+      <input class="form-control mr-sm-3" type="search" placeholder="Enter a Topic or Keyword" aria-label="Search" name="search">
+      <div class="input-group-append">
+      <button class="btn btn-outline-success my-2 " type="submit"><i class="fas fa-brain"></i>
+      </div>
+</button>
+    </form>
+</div>
+</div>
+</div>
+
+<!--       Features -->
+
+<div class="footer container-fluid bg-light fixed-bottom">
+  <hr class="my-2">
+
+<div class="container padding">
+  <div class="row text-center padding">
+    <div class="col-xs-6 col-lg-3">
+      <i class="fas fa-arrows-alt-h fa-2x  text-success"></i>
+      <h3>Sentiment Score</h3>
+      <p>Get the overall sentiment of your product in range of -100 to 100.</p>
+    </div>
+    <div class="col-xs-6 col-lg-3">
+      <i class="fas fa-chart-bar fa-2x  text-success"></i>
+      <h3>Analytics</h3>
+      <p>Easy to read graphs that provide sentiment over a timeline.</p>
+    </div>
+    <div class="col-xs-6 col-lg-3">
+      <i class="fas fa-stream fa-2x text-success"></i>
+      <h3>Tweet Stream</h3>
+      <p>Stream of live tweets related to your product.</p>
+    </div>
+    <div class="col-xs-6 col-lg-3">
+      <i class="fab fa-slack-hash fa-2x text-success"></i>
+      <h3>Related Content</h3>
+      <p>The keywords that are commonly associated with your product.</p>
+    </div>
+  </div>
+</div>
+<hr class="my-2">
+</div>
+
+
+
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
